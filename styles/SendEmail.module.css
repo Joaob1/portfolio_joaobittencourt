@@ -1,0 +1,76 @@
+@keyframes shrink10{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes grow10{
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 43.1rem;
+    gap: 2.8rem;
+}
+.space_between{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.input {
+    all: unset;
+    position: relative;
+    text-align: flex-start;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+    width: 19.8rem;
+    height: 5.5rem;
+    border: double 0.2rem transparent;
+    border-radius: 30px;
+    background-image: linear-gradient(var(--background-color-grey), var(--background-color-grey)), 
+                        linear-gradient(90deg, #FC4A1A 0%, #F7B733 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    padding-left: 2.5rem;
+    margin: 1rem;
+    box-shadow: 0 0 0 2.6rem inset var(--background-color-grey);
+}
+.input_email{
+    width: 100%;
+}
+.textarea{
+    width: 100%;
+    height: 18.8rem;
+    overflow-x: none;
+    word-wrap: break-word;
+    padding-top: 1rem;
+}
+.btn_enviar{
+    all: unset;
+    animation: shrink10 0.1s linear both;
+    align-self: center;
+    background: var(--color-gradient-orange);
+    width: 16.7rem;
+    height: 4.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8.65rem;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21px;
+}
+.btn_enviar:hover{
+    animation: grow10 0.1s linear both;
+    filter: contrast(1.6);
+}

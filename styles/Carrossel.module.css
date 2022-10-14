@@ -1,0 +1,37 @@
+.carrossel{
+    max-width: 45rem;
+}
+.habilidade{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    padding: 1rem !important;
+    animation: shrink10 0.2s linear both;
+} 
+.habilidade img{
+    cursor: pointer;
+    width: 100%;
+}
+.habilidade:hover{
+    animation: grow10 0.2s linear both;
+}
+.habilidade h1{
+    font-size: 30px;
+    line-height: 35px;
+}
+@keyframes shrink10{
+    from{
+        transform: scale(1.1);
+    }
+    to{
+        transform: scale(1);
+    }
+}
+@keyframes grow10{
+    from{
+        transform: scale(1)
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
