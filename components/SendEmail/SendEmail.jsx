@@ -23,7 +23,6 @@ export default function SendEmail() {
         email: form.email,
         mensagem: form.mensagem,
       });
-      setForm({ nome: "", sobrenome: "", email: "", mensagem: "" });
       return ToastSuccess("E-mail enviado!");
     } catch (error) {
       return ToastError("Não foi possível enviar o e-mail");

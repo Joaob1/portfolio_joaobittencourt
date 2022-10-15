@@ -221,15 +221,16 @@ line-height: 26px;
   margin-bottom: 13rem;
 }
 .projetos{
-  margin-top: 20rem;
+  margin-top: 2rem;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom: 23rem;
 }
 .projetos_title{
-  margin-bottom: 6.8rem;
+  margin-bottom: 8.8rem;
   font-size: 5rem;
   line-height: 5.9rem;
   z-index: 1;
@@ -267,10 +268,11 @@ line-height: 26px;
 }
 .span_infos{
   display: flex;
+  flex-direction: column;
   min-width: 100%;
   align-items: center;
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 3rem;
   font-size: 1.8rem;
 }
 .h1_infos{
