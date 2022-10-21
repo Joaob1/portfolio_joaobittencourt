@@ -10,6 +10,7 @@ import muiIcon from './mui.png'
 import axiosIcon from './axios.png'
 import tailwindIcon from './tailwind.png'
 import bootstrapIcon from './bootstrap.png'
+import reduxIcon from './redux.png'
 
 import nodeIcon from './node.png'
 import sqlIcon from './sql.png'
@@ -132,6 +133,12 @@ const habilidades = [
         nome: "JWT",
         stack: "back",
         link: "https://jwt.io/"
+    },
+    {
+        imagem: reduxIcon,
+        nome: "Redux",
+        stack: "front",
+        link: "https://redux.js.org/"
     }
 ]
 export default habilidades
