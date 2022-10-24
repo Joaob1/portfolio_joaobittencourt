@@ -5,6 +5,7 @@ import cubospuzzle from './cubosPuzzle.jpg'
 import leaflet from './leaflet.png'
 import montyhall from './montyhall.png'
 import paypay from './paypay.png'
+import mks from './mks.png'
 const projetos = [
     {
         nome: "Montyhall",
@@ -47,6 +48,12 @@ const projetos = [
         imagem: paypay,
         deploy: "https://paypay-jamesllopes.vercel.app/",
         repositorio: "https://github.com/Joaob1/front-integral-m05-desafio-t06"
+    },
+    {
+        nome: "Teste MKS",
+        imagem: mks,
+        deploy: "https://mks-sistemas-frontend-test-joaob1.vercel.app/",
+        repositorio: "https://github.com/Joaob1/mks-sistemas-frontend-test"
     }
 ]
 export default projetos;

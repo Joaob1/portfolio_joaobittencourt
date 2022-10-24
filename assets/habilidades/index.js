@@ -11,6 +11,7 @@ import axiosIcon from './axios.png'
 import tailwindIcon from './tailwind.png'
 import bootstrapIcon from './bootstrap.png'
 import reduxIcon from './redux.png'
+import jestIcon from './jest.png'
 
 import nodeIcon from './node.png'
 import sqlIcon from './sql.png'
@@ -139,6 +140,12 @@ const habilidades = [
         nome: "Redux",
         stack: "front",
         link: "https://redux.js.org/"
+    },
+    {
+        imagem: jestIcon,
+        nome: "Jest",
+        stack: "front",
+        link: "https://jestjs.io/pt-BR/"
     }
 ]
 export default habilidades
