@@ -163,7 +163,7 @@ export default function Home() {
               </a>{" "}
               como desenvolvedor front-end E na{" "}
               <a
-                href="https://mkssistemas.com/pt"
+                href="https://cubos.academy/"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.txtGradientOrange}
