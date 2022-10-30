@@ -154,14 +154,23 @@ export default function Home() {
               e me apaixonei pela área. <br /> <br />
               Atualmente trabalho na{" "}
               <a
-                href="https://redgtech.com.br/"
+                href="https://mkssistemas.com/pt"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.txtGradientOrange}
               >
-                Redgtech Automação
+                MKS Sistemas
               </a>{" "}
-              como desenvolvedor full stack
+              como desenvolvedor front-end E na{" "}
+              <a
+                href="https://mkssistemas.com/pt"
+                rel="noreferrer"
+                target="_blank"
+                className={styles.txtGradientOrange}
+              >
+                Cubos Academy
+              </a>{" "}
+              Como monitor Full-stack
               <br /> <br />
               Abaixo segue as tecnologias em que eu tenho conhecimento:
             </p>
