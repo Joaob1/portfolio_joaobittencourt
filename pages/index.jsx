@@ -154,15 +154,6 @@ export default function Home() {
               e me apaixonei pela área. <br /> <br />
               Atualmente trabalho na{" "}
               <a
-                href="https://mkssistemas.com/pt"
-                rel="noreferrer"
-                target="_blank"
-                className={styles.txtGradientOrange}
-              >
-                MKS Sistemas
-              </a>{" "}
-              como desenvolvedor front-end E na{" "}
-              <a
                 href="https://cubos.academy/"
                 rel="noreferrer"
                 target="_blank"
