@@ -6,6 +6,7 @@ import leaflet from './leaflet.png'
 import montyhall from './montyhall.png'
 import paypay from './paypay.png'
 import mks from './mks.png'
+import salt from './SaltChat.png'
 const projetos = [
     {
         nome: "Montyhall",
@@ -54,6 +55,12 @@ const projetos = [
         imagem: mks,
         deploy: "https://mks-sistemas-frontend-test-joaob1.vercel.app/",
         repositorio: "https://github.com/Joaob1/mks-sistemas-frontend-test"
+    },
+    {
+        nome: "Salt Chat",
+        imagem: salt,
+        deploy: "https://teste-saltsystems.vercel.app/signin",
+        repositorio: "https://github.com/Joaob1/teste-saltsystems"
     }
 ]
 export default projetos;
