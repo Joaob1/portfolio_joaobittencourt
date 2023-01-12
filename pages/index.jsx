@@ -161,7 +161,16 @@ export default function Home() {
               >
                 Cubos Academy
               </a>{" "}
-              Como monitor Full-stack
+              Como monitor Full-stack e na{" "}
+              <a
+                href="https://somas.org.br/"
+                rel="noreferrer"
+                target="_blank"
+                className={styles.txtGradientOrange}
+              >
+                Somas
+              </a>{" "}
+              Como professor auxiliar de programação.
               <br /> <br />
               Abaixo segue as tecnologias em que eu tenho conhecimento:
             </p>
