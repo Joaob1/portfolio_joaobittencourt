@@ -12,6 +12,7 @@ import tailwindIcon from './tailwind.png'
 import bootstrapIcon from './bootstrap.png'
 import reduxIcon from './redux.png'
 import jestIcon from './jest.png'
+import firebaseIcon from './firebase.png';
 
 import nodeIcon from './node.png'
 import sqlIcon from './sql.png'
@@ -146,6 +147,12 @@ const habilidades = [
         nome: "Jest",
         stack: "front",
         link: "https://jestjs.io/pt-BR/"
+    },
+    {
+        imagem: firebaseIcon,
+        nome: "Firebase",
+        stack: "front",
+        link: "https://firebase.google.com/"
     }
 ]
 export default habilidades
