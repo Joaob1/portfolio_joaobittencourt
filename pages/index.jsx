@@ -136,7 +136,7 @@ export default function Home() {
           <div className={styles.sobre_content}>
             <div className={styles.profile_image}></div>
             <p className={styles.sobre_p}>
-              Olá, me chamo João Bittencourt, tenho 25 anos e moro em Salvador -
+              Olá, me chamo João Bittencourt, tenho 26 anos e moro em Salvador -
               BA.
               <br /> <br />
               Sempre fui adepto à área de tecnologia e no ano de 2022 decidi
