@@ -163,14 +163,14 @@ export default function Home() {
               </a>{" "}
               Como monitor Full-stack e na{" "}
               <a
-                href="https://somas.org.br/"
+                href="https://mobtex.com/"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.txtGradientOrange}
               >
-                Somas
+                Mobtex
               </a>{" "}
-              Como professor auxiliar de programação.
+              Como Desenvolvedor de Software Front-end.
               <br /> <br />
               Abaixo segue as tecnologias em que eu tenho conhecimento:
             </p>
