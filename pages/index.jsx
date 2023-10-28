@@ -161,7 +161,7 @@ export default function Home() {
               >
                 Cubos Academy
               </a>{" "}
-              Como monitor Full-stack e na{" "}
+              Como Auxiliar de Code Review e na{" "}
               <a
                 href="https://mobtex.com/"
                 rel="noreferrer"
