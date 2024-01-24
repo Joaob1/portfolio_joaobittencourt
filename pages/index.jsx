@@ -154,15 +154,6 @@ export default function Home() {
               e me apaixonei pela área. <br /> <br />
               Atualmente trabalho na{" "}
               <a
-                href="https://cubos.academy/"
-                rel="noreferrer"
-                target="_blank"
-                className={styles.txtGradientOrange}
-              >
-                Cubos Academy
-              </a>{" "}
-              Como Auxiliar de Code Review e na{" "}
-              <a
                 href="https://mobtex.com/"
                 rel="noreferrer"
                 target="_blank"
