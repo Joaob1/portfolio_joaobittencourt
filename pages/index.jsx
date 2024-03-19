@@ -154,12 +154,12 @@ export default function Home() {
               e me apaixonei pela área. <br /> <br />
               Atualmente trabalho na{" "}
               <a
-                href="https://mobtex.com/"
+                href="http://trackfyapp.com/"
                 rel="noreferrer"
                 target="_blank"
                 className={styles.txtGradientOrange}
               >
-                Mobtex
+                Trackfy
               </a>{" "}
               Como Desenvolvedor de Software Front-end.
               <br /> <br />
